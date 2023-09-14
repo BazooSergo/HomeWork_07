@@ -131,6 +131,14 @@ tr:nth-child(3) td:nth-child(even) {
   background: red;
 }
 
-tr:nth-child(3n) td:nth-child(odd) {
+tr:nth-child(3n) td:nth-child(3) {
   background: blue;
+}
+
+tr:nth-child(3n) td:nth-child(2n) {
+  background: green;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+  background: rgb(16, 171, 214);
 }
